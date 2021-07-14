@@ -10,9 +10,11 @@ const ReplySchema = new Schema(
     },
     replyBody: {
       type: String,
+      required: true,
     },
     writtenBy: {
       type: String,
+      required: true,
     },
     createdAt: {
       type: Date,
